@@ -7,10 +7,10 @@ Elle permet d’ajouter, filtrer, marquer, supprimer et trier les tâches par da
 
 ## 🚀 Aperçu du projet
 
- ![Uploading Screenshot 2025-10-18 at 23.15.43.png…]()
-![Uploading Screenshot 2025-10-18 at 23.15.26.png…]()
-
-
+ <div style="display: flex; justify-content: space-between; gap: 10px;">
+  <img width="49%" alt="Screenshot 1" src="https://github.com/user-attachments/assets/043d5018-d63f-4bf6-97f5-25ad5ff91bbc" />
+  <img width="49%" alt="Screenshot 2" src="https://github.com/user-attachments/assets/a48ca2e7-2ed6-462f-be37-7f824b57123b" />
+</div>
 ---
 
 ## 🧩 Fonctionnalités
@@ -41,3 +41,4 @@ Elle permet d’ajouter, filtrer, marquer, supprimer et trier les tâches par da
 
    ```bash
    git clone https://github.com/zahraemourid/todo--app.git
+ 
