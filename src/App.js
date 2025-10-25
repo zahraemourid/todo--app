@@ -76,8 +76,7 @@ export default function App() {
     setEditingIndex(null);
   };
 
-  // 🧠 Filtrage : ne pas afficher les tâches terminées dans "important"
-  const visibleIndices = tasks
+   const visibleIndices = tasks
     .map((task, idx) => ({ task, idx }))
     .filter(({ task }) => {
       if (filter === "done") return task.done;
@@ -99,8 +98,7 @@ export default function App() {
         🚀 To-Do App
       </h1>
 
-      {/* Input */}
-      <div className="flex gap-3 mb-6 w-full max-w-lg">
+       <div className="flex gap-3 mb-6 w-full max-w-lg">
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
@@ -116,8 +114,7 @@ export default function App() {
         </button>
       </div>
 
-      {/* Filters */}
-      <div className="flex flex-wrap gap-3 mb-8 justify-center">
+       <div className="flex flex-wrap gap-3 mb-8 justify-center">
         {["all", "todo", "done", "important"].map((f) => (
           <button
             key={f}
@@ -147,8 +144,7 @@ export default function App() {
         </select>
       </div>
 
-      {/* Liste sous forme de cards */}
-      <ul className="w-full max-w-3xl grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+       <ul className="w-full max-w-3xl grid sm:grid-cols-2 md:grid-cols-3 gap-4">
         {visibleIndices.length === 0 && (
           <li className="col-span-full text-white/80 text-center py-4">
             Aucune tâche trouvée
